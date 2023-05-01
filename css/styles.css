@@ -330,6 +330,242 @@ body {
         display: flex;
     }
 
+    .bordepantalla2{
+        width: 80%;
+        height: 50%;
+        background-color: rgb(110,110,110);
+        position: absolute;
+        top: 30px;
+        left: 25px;
+        border-radius: 5% ;
+        border-bottom-right-radius: 40px;
+        display: flex;
+      
+      }
+      
+      .pantalla2{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70%;
+        height: 65%;
+        position: absolute;
+        top: 12%;
+        left: 15%;
+        background-color: #536617;
+        border: black 0.16em solid;
+      
+      }
+      
+      .power2{
+          
+        width: 5px;
+        height: 5px;
+        border-radius: 5px;
+        background-color: rgb(121,40,40);
+        position: absolute;
+        top: 38%;
+        left: 5%;
+      
+      }
+      
+      .power2.encendido{
+        background-color: red;
+      
+      }
+      
+      
+      .nintendo2{
+        float: left;
+        font-weight: bolder;
+        font-size: 10px;
+        line-height: 26px;
+        margin-top: 225px;
+        margin-left: 5px;
+        color: #373b87;
+        
+      }
+      
+      .gameboyTexto2{
+        font-weight: bolder;
+        margin-top: 227px;
+        color: #373b87;
+        
+      }
+      
+      .tmTexto2{
+      font-weight: bolder;
+      margin-top: 206px;
+      color: #373b87;
+      
+      }
+      
+      .cruceta2{
+        
+        width: 120px;
+        height: 101px;
+        position: relative;
+        top: 115%;
+        left: -70%;
+      }
+       
+      
+      .up2 {
+        position: absolute;
+        top: 36%;
+        left: 50%;
+        width: 12px;
+        height: 20px;
+        background-color: black;
+        transform: translate(-50%, -50%);
+        box-shadow: black 2px 2px 2px 2px;
+        
+      }
+      
+      .down2 {
+        position: absolute;
+        bottom: 36%;
+        left: 50%;
+        width: 12px;
+        height: 20px;
+        background-color: black;
+        transform: translate(-50%, 50%);
+        box-shadow: black 2px 2px 2px 2px;
+        
+      }
+      
+      .left2 {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        width: 20px;
+        height: 12px;
+        background-color: black;
+        transform: translate(-50%, -50%);
+        box-shadow: black 2px 2px 2px 2px;
+        
+      }
+      
+      .right2 {
+        position: absolute;
+        top: 50%;
+        right: 30%;
+        width: 20px;
+        height: 12px;
+        background-color: black;
+        transform: translate(50%, -50%);
+        box-shadow: black 2px 2px 2px 2px;
+        
+      }
+      
+      
+      .botones2{
+        
+        width: 20px;
+        height: 60px;
+        position: absolute;
+        top: 25%;
+        right: -220%;
+        transform: rotate(60deg);
+        border-radius: 15px;
+        display: flex;
+      }
+      
+      .boton-a2{
+        width: 25px;
+        height: 25px;
+        background-color: #801f48;
+        border-radius: 80px;
+        position: absolute;
+        top: 6px;
+        left: -10px;
+        box-shadow: 2px 2px 2px 2px rgba(114,49,49,0.418);
+      
+      }
+      
+      .boton-b2{
+        width: 25px;
+        height: 25px;
+        background-color:#801f48;
+        border-radius: 100px;
+        position: absolute;
+        bottom:-5px;
+        left: -10px;
+        box-shadow: 2px 2px 2px 2px rgba(114,49,49,0.418);
+      
+      }
+      
+      
+      .letraA2, .letraB2 {
+        font-size: 10px;
+        color: white;
+        position: absolute;
+        bottom: 30%;
+        text-align: center;
+        width: 30px;
+        transform: rotate(-85deg);
+        font-family: Arial, Helvetica, sans-serif;
+        left: 100%;
+        color: #373b87;
+      }
+      
+      
+      
+      .botones-inferior2{
+        width: 30px;
+        height: 15px;
+        position: absolute;
+        top: 84%;
+        left: 90%;
+        justify-content: space-between;
+      }
+      
+      
+      .select2{
+        width: 7px;
+        height: 25px;
+        border-radius: 10px;
+        background-color: #6e6b74;
+        transform: rotate(60deg);
+        
+      }
+      
+      .start2{
+        width: 7px;
+        height: 25px;
+        border-radius: 10px;
+        background-color: #6e6b74;
+        transform: rotate(60deg);
+        position: absolute;
+        right: -20px;
+        top: 10%;
+        
+      }
+      
+      .letrasStart2, .letrasSelect2 {
+        font-size: 8px;
+        color: #373b87;
+        position: absolute;
+        bottom: 5px;
+        left: 90%;
+        text-align: center;
+        width: 25px;
+        transform: rotate(-90deg);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      
+      .altavoz2{
+        position: relative;
+        height: 30px;
+        width: 4px;
+        top: 100px;
+        left: 170px;
+        background: #858585;
+        border-radius: 4px;
+        transform: rotate(-32deg);
+        box-shadow: 10px 0 #858585, 10px 0 #858585, 10px 0 #858585, 10px 0 #858585, -10px 0 #858585;
+        }
+
 
 
 
