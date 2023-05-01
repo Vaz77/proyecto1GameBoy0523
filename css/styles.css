@@ -100,3 +100,111 @@
     left: 7%;
 
 }
+
+.letrasBattery{
+    color: rgba(255, 255, 255, 0.629);
+    width: 2px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 37%;
+    left: 1.5%;
+  }
+  
+  .logo{
+      
+      position: absolute;
+      top: 55%;
+      left: 7%;
+      width: 100%;
+      color: #373b87;
+      font-style: italic;
+  
+  }
+  
+  .nintendo{
+      float: left;
+      font-weight: bolder;
+      font-size: 10px;
+      line-height: 26px;
+      margin-top: -15px;
+      
+  }
+  
+  .gameboyTexto{
+      float: left;
+      text-transform: uppercase;
+      font-weight: bolder;
+      margin-top: -25px;
+      
+  }
+  
+  .tmTexto{
+    float: left;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: -20px;
+  
+  }
+  .cruceta{
+    
+    width: 120px;
+    height: 101px;
+    position: relative;
+    top: 65%;
+    left: 10%;
+  }
+   
+  
+  .up {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 27px;
+    height: 40px;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    box-shadow: black 2px 2px 2px 2px;
+    
+  }
+  
+  .down {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    width: 27px;
+    height: 40px;
+    background-color: black;
+    transform: translate(-50%, 50%);
+    box-shadow: black 2px 2px 2px 2px;
+    
+  }
+  
+  .left {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 40px;
+    height: 27px;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    box-shadow: black 2px 2px 2px 2px;
+    
+  }
+  
+  .right {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    width: 40px;
+    height: 27px;
+    background-color: black;
+    transform: translate(50%, -50%);
+    box-shadow: black 2px 2px 2px 2px;
+    
+  }
+
+
+  
+
+  
