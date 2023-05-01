@@ -1,0 +1,14 @@
+
+.game-boy{
+    
+    width: 450px;
+    height: 750px;
+    background-color: #c0bdb8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3%;
+    border-bottom-right-radius: 80px;
+    
+}
