@@ -1,9 +1,9 @@
 
+
 body {
     background-image: url(/Imagenes/fondoNintendo.png);
     background-size: cover;
 }
-
 
 .game-boy{
     
@@ -16,8 +16,9 @@ body {
     transform: translate(-50%,-50%);
     border-radius: 3%;
     border-bottom-right-radius: 80px;
-    
+    box-shadow: 3px 5px 20px rgba(0,0,0,0.4);
 }
+
 
 .borde-pantalla{
     
@@ -107,110 +108,114 @@ body {
 
 }
 
+.power.encendido {
+  background-color: red;
+}
+
 .letrasBattery{
-    color: rgba(255, 255, 255, 0.629);
-    width: 2px;
-    height: 10px;
-    border-radius: 5px;
+  color: rgba(255, 255, 255, 0.629);
+  width: 2px;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 37%;
+  left: 1.5%;
+}
+
+.logo{
+    
     position: absolute;
-    top: 37%;
-    left: 1.5%;
-  }
-  
-  .logo{
-      
-      position: absolute;
-      top: 55%;
-      left: 7%;
-      width: 100%;
-      color: #373b87;
-      font-style: italic;
-  
-  }
-  
-  .nintendo{
-      float: left;
-      font-weight: bolder;
-      font-size: 10px;
-      line-height: 26px;
-      margin-top: -15px;
-      
-  }
-  
-  .gameboyTexto{
-      float: left;
-      text-transform: uppercase;
-      font-weight: bolder;
-      margin-top: -25px;
-      
-  }
-  
-  .tmTexto{
+    top: 55%;
+    left: 7%;
+    width: 100%;
+    color: #373b87;
+    font-style: italic;
+
+}
+
+.nintendo{
+    float: left;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 26px;
+    margin-top: -15px;
+    
+}
+
+.gameboyTexto{
     float: left;
     text-transform: uppercase;
     font-weight: bolder;
-    margin-top: -20px;
-  
-  }
-  .cruceta{
+    margin-top: -25px;
     
-    width: 120px;
-    height: 101px;
-    position: relative;
-    top: 65%;
-    left: 10%;
-  }
-   
-  
-  .up {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    width: 27px;
-    height: 40px;
-    background-color: black;
-    transform: translate(-50%, -50%);
-    box-shadow: black 2px 2px 2px 2px;
-    
-  }
-  
-  .down {
-    position: absolute;
-    bottom: 30%;
-    left: 50%;
-    width: 27px;
-    height: 40px;
-    background-color: black;
-    transform: translate(-50%, 50%);
-    box-shadow: black 2px 2px 2px 2px;
-    
-  }
-  
-  .left {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    width: 40px;
-    height: 27px;
-    background-color: black;
-    transform: translate(-50%, -50%);
-    box-shadow: black 2px 2px 2px 2px;
-    
-  }
-  
-  .right {
-    position: absolute;
-    top: 50%;
-    right: 30%;
-    width: 40px;
-    height: 27px;
-    background-color: black;
-    transform: translate(50%, -50%);
-    box-shadow: black 2px 2px 2px 2px;
-    
-  }
+}
 
-  .botones{
+.tmTexto{
+  float: left;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: -20px;
+
+}
+.cruceta{
+  
+  width: 120px;
+  height: 101px;
+  position: relative;
+  top: 65%;
+  left: 10%;
+}
+ 
+
+.up {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 27px;
+  height: 40px;
+  background-color: black;
+  transform: translate(-50%, -50%);
+  box-shadow: black 2px 2px 2px 2px;
+  
+}
+
+.down {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  width: 27px;
+  height: 40px;
+  background-color: black;
+  transform: translate(-50%, 50%);
+  box-shadow: black 2px 2px 2px 2px;
+  
+}
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 40px;
+  height: 27px;
+  background-color: black;
+  transform: translate(-50%, -50%);
+  box-shadow: black 2px 2px 2px 2px;
+  
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  width: 40px;
+  height: 27px;
+  background-color: black;
+  transform: translate(50%, -50%);
+  box-shadow: black 2px 2px 2px 2px;
+  
+}
+
+.botones{
   
     width: 70px;
     height: 110px;
@@ -303,268 +308,274 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+
   .altavoz{
-    position: relative;
-    height: 62px;
-    width: 8px;
-    top: 570px;
-    left: 330px;
-    background: #858585;
-    border-radius: 4px;
-    transform: rotate(-32deg);
-    box-shadow: 20px 0 #858585, 40px 0 #858585, 60px 0 #858585, 80px 0 #858585, 100px 0 #858585;
-    }
+  position: relative;
+  height: 62px;
+  width: 8px;
+  top: 570px;
+  left: 330px;
+  background: #858585;
+  border-radius: 4px;
+  transform: rotate(-32deg);
+  box-shadow: 20px 0 #858585, 40px 0 #858585, 60px 0 #858585, 80px 0 #858585, 100px 0 #858585;
+  }
 
 
-    .gameboy2{
-        width: 250px;
-        height: 450px;
-        background-color: #c0bdb8;
-        position: absolute;
-        top: 40%;
-        left: 89%;
-        transform: translate(-50%,-50%);
-        border-radius: 3%;
-        border-bottom-right-radius: 80px;
-        box-shadow: 3px 5px 20px rgba(0,0,0,0.4);
-        display: flex;
-    }
 
-    .bordepantalla2{
-        width: 80%;
-        height: 50%;
-        background-color: rgb(110,110,110);
-        position: absolute;
-        top: 30px;
-        left: 25px;
-        border-radius: 5% ;
-        border-bottom-right-radius: 40px;
-        display: flex;
-      
-      }
-      
-      .pantalla2{
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 70%;
-        height: 65%;
-        position: absolute;
-        top: 12%;
-        left: 15%;
-        background-color: #536617;
-        border: black 0.16em solid;
-      
-      }
-      
-      .power2{
-          
-        width: 5px;
-        height: 5px;
-        border-radius: 5px;
-        background-color: rgb(121,40,40);
-        position: absolute;
-        top: 38%;
-        left: 5%;
-      
-      }
-      
-      .power2.encendido{
-        background-color: red;
-      
-      }
-      
-      
-      .nintendo2{
-        float: left;
-        font-weight: bolder;
-        font-size: 10px;
-        line-height: 26px;
-        margin-top: 225px;
-        margin-left: 5px;
-        color: #373b87;
-        
-      }
-      
-      .gameboyTexto2{
-        font-weight: bolder;
-        margin-top: 227px;
-        color: #373b87;
-        
-      }
-      
-      .tmTexto2{
-      font-weight: bolder;
-      margin-top: 206px;
-      color: #373b87;
-      
-      }
-      
-      .cruceta2{
-        
-        width: 120px;
-        height: 101px;
-        position: relative;
-        top: 115%;
-        left: -70%;
-      }
-       
-      
-      .up2 {
-        position: absolute;
-        top: 36%;
-        left: 50%;
-        width: 12px;
-        height: 20px;
-        background-color: black;
-        transform: translate(-50%, -50%);
-        box-shadow: black 2px 2px 2px 2px;
-        
-      }
-      
-      .down2 {
-        position: absolute;
-        bottom: 36%;
-        left: 50%;
-        width: 12px;
-        height: 20px;
-        background-color: black;
-        transform: translate(-50%, 50%);
-        box-shadow: black 2px 2px 2px 2px;
-        
-      }
-      
-      .left2 {
-        position: absolute;
-        top: 50%;
-        left: 30%;
-        width: 20px;
-        height: 12px;
-        background-color: black;
-        transform: translate(-50%, -50%);
-        box-shadow: black 2px 2px 2px 2px;
-        
-      }
-      
-      .right2 {
-        position: absolute;
-        top: 50%;
-        right: 30%;
-        width: 20px;
-        height: 12px;
-        background-color: black;
-        transform: translate(50%, -50%);
-        box-shadow: black 2px 2px 2px 2px;
-        
-      }
-      
-      
-      .botones2{
-        
-        width: 20px;
-        height: 60px;
-        position: absolute;
-        top: 25%;
-        right: -220%;
-        transform: rotate(60deg);
-        border-radius: 15px;
-        display: flex;
-      }
-      
-      .boton-a2{
-        width: 25px;
-        height: 25px;
-        background-color: #801f48;
-        border-radius: 80px;
-        position: absolute;
-        top: 6px;
-        left: -10px;
-        box-shadow: 2px 2px 2px 2px rgba(114,49,49,0.418);
-      
-      }
-      
-      .boton-b2{
-        width: 25px;
-        height: 25px;
-        background-color:#801f48;
-        border-radius: 100px;
-        position: absolute;
-        bottom:-5px;
-        left: -10px;
-        box-shadow: 2px 2px 2px 2px rgba(114,49,49,0.418);
-      
-      }
-      
-      
-      .letraA2, .letraB2 {
-        font-size: 10px;
-        color: white;
-        position: absolute;
-        bottom: 30%;
-        text-align: center;
-        width: 30px;
-        transform: rotate(-85deg);
-        font-family: Arial, Helvetica, sans-serif;
-        left: 100%;
-        color: #373b87;
-      }
-      
-      
-      
-      .botones-inferior2{
-        width: 30px;
-        height: 15px;
-        position: absolute;
-        top: 84%;
-        left: 90%;
-        justify-content: space-between;
-      }
-      
-      
-      .select2{
-        width: 7px;
-        height: 25px;
-        border-radius: 10px;
-        background-color: #6e6b74;
-        transform: rotate(60deg);
-        
-      }
-      
-      .start2{
-        width: 7px;
-        height: 25px;
-        border-radius: 10px;
-        background-color: #6e6b74;
-        transform: rotate(60deg);
-        position: absolute;
-        right: -20px;
-        top: 10%;
-        
-      }
-      
-      .letrasStart2, .letrasSelect2 {
-        font-size: 8px;
-        color: #373b87;
-        position: absolute;
-        bottom: 5px;
-        left: 90%;
-        text-align: center;
-        width: 25px;
-        transform: rotate(-90deg);
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      
-      
-      .altavoz2{
-        position: relative;
-        height: 30px;
-        width: 4px;
-        top: 100px;
-        left: 170px;
-        background: #858585;
-        border-radius: 4px;
-        transform: rotate(-32deg);
-        box-shadow: 10px 0 #858585, 10px 0 #858585, 10px 0 #858585, 10px 0 #858585, -10px 0 #858585;
-        }
+  .animacion-start {
+    animation: pulsar 0.2s linear alternate;
+}
+  
+  .gameboy2{
+    width: 250px;
+    height: 450px;
+    background-color: #c0bdb8;
+    position: absolute;
+    top: 40%;
+    left: 89%;
+    transform: translate(-50%,-50%);
+    border-radius: 3%;
+    border-bottom-right-radius: 80px;
+    box-shadow: 3px 5px 20px rgba(0,0,0,0.4);
+    display: flex;
+}
+
+.bordepantalla2{
+  width: 80%;
+  height: 50%;
+  background-color: rgb(110,110,110);
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  border-radius: 5% ;
+  border-bottom-right-radius: 40px;
+  display: flex;
+
+}
+
+.pantalla2{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 62%;
+  height: 35%;
+  position: absolute;
+  top: 12%;
+  left: 18%;
+  background-color: #536617;
+  border: black 0.16em solid;
+
+}
+
+.power2{
+    
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgb(121,40,40);
+  position: absolute;
+  top: 38%;
+  left: 5%;
+
+}
+
+.power2.encendido{
+  background-color: red;
+
+}
+
+
+.nintendo2{
+  float: left;
+  font-weight: bolder;
+  font-size: 10px;
+  line-height: 26px;
+  margin-top: 225px;
+  margin-left: 5px;
+  color: #373b87;
+  
+}
+
+.gameboyTexto2{
+  font-weight: bolder;
+  margin-top: 227px;
+  color: #373b87;
+  
+}
+
+.tmTexto2{
+font-weight: bolder;
+margin-top: 206px;
+color: #373b87;
+
+}
+
+.cruceta2{
+  
+  width: 120px;
+  height: 101px;
+  position: relative;
+  top: 115%;
+  left: -70%;
+}
+ 
+
+.up2 {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  width: 12px;
+  height: 20px;
+  background-color: black;
+  transform: translate(-50%, -50%);
+  box-shadow: black 2px 2px 2px 2px;
+  
+}
+
+.down2 {
+  position: absolute;
+  bottom: 36%;
+  left: 50%;
+  width: 12px;
+  height: 20px;
+  background-color: black;
+  transform: translate(-50%, 50%);
+  box-shadow: black 2px 2px 2px 2px;
+  
+}
+
+.left2 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 20px;
+  height: 12px;
+  background-color: black;
+  transform: translate(-50%, -50%);
+  box-shadow: black 2px 2px 2px 2px;
+  
+}
+
+.right2 {
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  width: 20px;
+  height: 12px;
+  background-color: black;
+  transform: translate(50%, -50%);
+  box-shadow: black 2px 2px 2px 2px;
+  
+}
+
+
+.botones2{
+  
+  width: 20px;
+  height: 60px;
+  position: absolute;
+  top: 25%;
+  right: -220%;
+  transform: rotate(60deg);
+  border-radius: 15px;
+  display: flex;
+}
+
+.boton-a2{
+  width: 25px;
+  height: 25px;
+  background-color: #801f48;
+  border-radius: 80px;
+  position: absolute;
+  top: 6px;
+  left: -10px;
+  box-shadow: 2px 2px 2px 2px rgba(114,49,49,0.418);
+
+}
+
+.boton-b2{
+  width: 25px;
+  height: 25px;
+  background-color:#801f48;
+  border-radius: 100px;
+  position: absolute;
+  bottom:-5px;
+  left: -10px;
+  box-shadow: 2px 2px 2px 2px rgba(114,49,49,0.418);
+
+}
+
+
+.letraA2, .letraB2 {
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  bottom: 30%;
+  text-align: center;
+  width: 30px;
+  transform: rotate(-85deg);
+  font-family: Arial, Helvetica, sans-serif;
+  left: 100%;
+  color: #373b87;
+}
+
+
+
+.botones-inferior2{
+  width: 30px;
+  height: 15px;
+  position: absolute;
+  top: 84%;
+  left: 90%;
+  justify-content: space-between;
+}
+
+
+.select2{
+  width: 7px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #6e6b74;
+  transform: rotate(60deg);
+  
+}
+
+.start2{
+  width: 7px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #6e6b74;
+  transform: rotate(60deg);
+  position: absolute;
+  right: -20px;
+  top: 10%;
+  
+}
+
+.letrasStart2, .letrasSelect2 {
+  font-size: 8px;
+  color: #373b87;
+  position: absolute;
+  bottom: 5px;
+  left: 90%;
+  text-align: center;
+  width: 25px;
+  transform: rotate(-90deg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.altavoz2{
+  position: relative;
+  height: 30px;
+  width: 4px;
+  top: 100px;
+  left: 170px;
+  background: #858585;
+  border-radius: 4px;
+  transform: rotate(-32deg);
+  box-shadow: 10px 0 #858585, 10px 0 #858585, 10px 0 #858585, 10px 0 #858585, -10px 0 #858585;
+  }
 
 
 
