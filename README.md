@@ -20,6 +20,7 @@ El modelo y todos los detalles incluidos est√°n basados en la videoconsola port√
 
 #### Referencias 
 Me he inspirado en esta imagen.
+
 ![foto](./img/450_1000.webp)
 
 ---
