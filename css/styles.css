@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url(/Imagenes/fondoNintendo.png);
+    background-image: url(/img/fondo.png);
     background-size: cover;
 }
 
@@ -17,6 +17,7 @@ body {
     border-radius: 3%;
     border-bottom-right-radius: 80px;
     box-shadow: 3px 5px 20px rgba(0,0,0,0.4);
+    display: grid;
 }
 
 
@@ -162,10 +163,9 @@ body {
   width: 120px;
   height: 101px;
   position: relative;
-  top: 65%;
+  top: 120%;
   left: 10%;
 }
- 
 
 .up {
   position: absolute;
@@ -313,7 +313,7 @@ body {
   position: relative;
   height: 62px;
   width: 8px;
-  top: 570px;
+  top: 290px;
   left: 330px;
   background: #858585;
   border-radius: 4px;

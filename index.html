@@ -7,62 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Boy</title>
     <link rel="stylesheet" href="./css/styles.css">
-
-    <script>
-      function startGame() {
-          
-          var pantalla = document.querySelector('.pantalla');
-          var altavoz = document.querySelector('.altavoz');
-          var power = document.querySelector('.power');
-  
-          
-          pantalla.style.backgroundImage = 'url(/Imagenes/mariobros.gif)';
-  
-          
-          var musica = new Audio('/Sonidos/mariobrosremix3.mp3');
-          musica.play();
-
-          power.classList.add('encendido');
-  
-          
-          var startBtn = document.querySelector('.start');
-          startBtn.classList.add('animacion-start');
-      }
-
-    
-          function startGame2() {
-          
-          var pantalla2 = document.querySelector('#pantalla2');
-          var altavoz2 = document.querySelector('.altavoz2');
-          var power = document.querySelector('.power2');
-
-        
-          pantalla2.style.backgroundImage = 'url(/Imagenes/marioprincesa.gif)';
-
-          var musica2 = new Audio('/Sonidos/mariobrosprincesa.mp3');
-          musica2.play();
-
-          power.classList.add('encendido');
-
-         var startBtn2 = document.querySelector('.start2');
-         startBtn2.classList.add('animacion-start');
-
-      }
-   </script>
-
 </head>
-
 <body>
     <div class="game-boy">
         <div class="borde-pantalla">
-              <div class="linea-roja1"></div>
+            <div class="linea-roja1"></div>
               <div class="textoBorde"><h6> DOT MATRIX WITH STEREO SOUND</h6></div>
-              <div class="linea-roja2"></div>
-              <div class="linea-azul1"></div>
-              <div class="linea-azul2"></div>
-              <div class="power"></div>
+                  <div class="linea-roja2"></div>
+                    <div class="linea-azul1"></div>
+                  <div class="linea-azul2"></div>
+                <div class="power"></div>
               <div class="letrasBattery"><h6>BATTERY</h6> </div>
-              <div class="pantalla"></div>
+            <div class="pantalla"></div>
         </div>
           <div class="cruceta">
               <div class="up"></div>
@@ -92,19 +48,15 @@
           </div>
         </div>
           <div class="altavoz"></div>
-        
-
     </div>
-
-
     <div class="gameboy2">
       <div class="bordepantalla2">
-    <div class="pantalla2"></div>
-    <div class="power2"></div>
-    <div class="nintendo2">Nintendo</div>
-    <div class="gameboyTexto2">GAMEBOY</div>
-    <div class="tmTexto2"><h6>TM</h6></div>
-    <div class="cruceta2">
+        <div class="pantalla2"></div>
+          <div class="power2"></div>
+            <div class="nintendo2">Nintendo</div>
+          <div class="gameboyTexto2">GAMEBOY</div>
+        <div class="tmTexto2"><h6>TM</h6></div>
+      <div class="cruceta2">
       <div class="up2"></div>
       <div class="down2"></div>
       <div class="left2"></div>
@@ -127,17 +79,35 @@
         </div>
       </div>
           <div class="altavoz2"></div>
-
-  
-
-      </div>
+    </div>
     </div>
 
     <div class="pantalla2" id="pantalla2"></div>
     
 
-
-
-
+    <script>
+      function startGame() {         
+          var pantalla = document.querySelector('.pantalla');
+          var altavoz = document.querySelector('.altavoz');
+          var power = document.querySelector('.power');         
+          pantalla.style.backgroundImage = 'url(/img/mariobros.gif)';          
+          var musica = new Audio('/sonido/mariobrosremix3.mp3');
+          musica.play();
+          power.classList.add('encendido');          
+          var startBtn = document.querySelector('.start');
+          startBtn.classList.add('animacion-start');
+        }    
+          function startGame2() {         
+          var pantalla2 = document.querySelector('#pantalla2');
+          var altavoz2 = document.querySelector('.altavoz2');
+          var power = document.querySelector('.power2');       
+          pantalla2.style.backgroundImage = 'url(/img/marioprincesa.gif)';
+          var musica2 = new Audio('/sonido/mariobrosprincesa.mp3');
+          musica2.play();
+          power.classList.add('encendido');
+          var startBtn2 = document.querySelector('.start2');
+          startBtn2.classList.add('animacion-start');
+        }
+    </script>
 </body>
 </html>
